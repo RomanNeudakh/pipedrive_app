@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  overflow-x: hidden; 
+}
+
+.job-form {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 20px;
+  width: 100%;  
+  box-sizing: border-box;
+}
+
+.form-section {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  flex: 1 1 300px;
+  max-width: 300px;
+  margin-bottom: 20px; 
+}
+
+.form-section h3 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px; 
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;  
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+}
+
+textarea {
+  resize: none;
+  height: 60px; 
+}
+
+.button-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+  background-color: #ccc;
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; 
+}
+
+button:hover {
+  background-color: #898a8b;
+}
+.success-message, .loading-message {
+  text-align: center;
+  font-size: 1.2rem;
+  color: green;
+  margin-top: 20px;
+}
